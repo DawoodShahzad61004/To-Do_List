@@ -32,7 +32,7 @@ A simple React-based To-Do List application built to practice and demonstrate th
 ### 1. Clone the repository or download the ZIP
 
 ```bash
-git clone https://github.com/your-username/es6-spread-operator-practice.git
+git clone https://github.com/DawoodShahzad61004/To-Do_List.git
 cd es6-spread-operator-practice
 ```
 
