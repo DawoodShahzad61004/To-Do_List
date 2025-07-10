@@ -1,6 +1,8 @@
-# ES6 Spread Operator - To-Do List Practice App
+# To-Do List Practice App
 
-A simple React-based To-Do List application built to practice and demonstrate the use of the **ES6 spread operator**, modular React components, and state management with hooks.
+A simple React-based To-Do List application built to practice and demonstrate the use of the ES6 spread operator, modular React components, and state management with hooks.
+
+🔗 **Live Demo:** [View To-Do List App](https://dawoodshahzad61004.github.io/To-Do_List/)
 
 ## 📁 Project Structure
 
