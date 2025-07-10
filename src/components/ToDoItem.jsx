@@ -29,19 +29,25 @@ function ToDoItem({ id, text, done, onToggle, onDelete, onEdit }) {
         )}
       </span>
 
-      {isEditing ? (
-        <button onClick={handleEditSave}>
-          <span>Save</span>
-        </button>
-      ) : (
-        <button onClick={() => setEditing(true)}>
-          <span>🖊️</span>
-        </button>
-      )}
+      <div className="action-buttons">
+        {isEditing ? (
+          <button onClick={handleEditSave} className="text-button">
+            <span>Save</span>
+          </button>
+        ) : (
+          <button onClick={() => setEditing(true)} className="edit-button">
+            <span role="img" aria-label="edit">
+              🖊️
+            </span>
+          </button>
+        )}
 
-      <button onClick={() => onDelete(id)}>
-        <span>❌</span>
-      </button>
+        <button onClick={() => onDelete(id)}>
+          <span role="img" aria-label="delete">
+            ❌
+          </span>
+        </button>
+      </div>
     </li>
   );
 }

@@ -77,10 +77,17 @@ function App() {
         <div className="heading">
           <h1>To-Do List</h1>
         </div>
-
-        <button onClick={clearAll} style={{ marginBottom: "10px" }}>
-          <span>Clear All</span>
-        </button>
+        <div className="clear-all-container">
+          <button
+            onClick={clearAll}
+            style={{
+              marginBottom: "30px",
+              marginTop: "15px",
+            }}
+          >
+            <span>Clear All</span>
+          </button>
+        </div>
 
         <InputArea
           onAdd={handleClick}
